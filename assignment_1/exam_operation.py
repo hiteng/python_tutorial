@@ -45,22 +45,3 @@ def exam_result1(sub1, sub2, sub3, sub4, sub5, out_of_marks):
 
 print exam_result1(75,65,90,67,78,500)
 
-# def exam_result2(sub1, sub2, sub3, sub4, sub5, total_perc):
-#
-#     avg = (sub1+sub2+sub3+sub4+sub5)/5
-#
-#     if avg > total_perc:
-#         result = "Invalid Percentage"
-#         return result
-#
-#     if avg >= 75:
-#         result = "Student passed with distinction"
-#     elif avg >= 50:
-#         result = "Student is passed with First class"
-#     elif avg >= 40:
-#         result = "Student is passed"
-#     else:
-#         result = "Student is failed"
-#     return result
-#
-# print exam_result2(75,65,90,67,78,100)
