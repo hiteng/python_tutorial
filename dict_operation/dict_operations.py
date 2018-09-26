@@ -62,6 +62,39 @@ def value_name(details,model_no):
     #     print(details[value]["name"])
     print details[model_no].values()
 
+def check_for_car_price(details, car_price):
+    print [True if details[each]["price"] > car_price else False for each in details]
+    return all(True if details[each]["price"] > car_price else False for each in details)
+
+    # [ each for each in details if details[each]['price'] > 100000] Returns the model no which has price more than 100000
+    # [True details[each]['price'] > 100000 else False for each in details] Returns T or F for each price in details.
+    #[result for condition if condition]
+
+    #[ each for each in details if details[each]['price'] > 100000]
+
+    # similar to :
+    #
+    # result = []
+    # for each in details:
+    # if details[each]['price'] > 100000
+    # result.append(each)
+    # return result
+
+    # [True if details[each]['price'] > 100000 else False for each in details]
+    #
+    # similar to :
+    #
+    # result = []
+    # for each in details:
+    # if details[each]['price'] > 100000:
+    # result.append(True)
+    # else:
+    # result.append(False)
+    # return result
+
+def check_for_any_car_price(details, car_price):
+    print [True if details[each]["price"] > car_price else False for each in details]
+    return any(True if details[each]["price"] > car_price else False for each in details)
 
 if __name__ == '__main__':
 
@@ -82,7 +115,7 @@ if __name__ == '__main__':
     print""
     print get_model_loc_street(car_details, "a5")
     print""
-    print update_price_by_value(car_details,1000)
+    #print update_price_by_value(car_details,1000)
     print""
     print pop_details(car_details,"a9")
     print pop_details(car_details, "a6")
@@ -96,3 +129,7 @@ if __name__ == '__main__':
     key_name(car_details)
     print""
     value_name(car_details,"a2")
+    print""
+    print check_for_car_price(car_details, 90000)
+    print""
+    print check_for_any_car_price(car_details, 400000)
