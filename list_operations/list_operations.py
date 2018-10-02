@@ -80,14 +80,14 @@ def list_comprehension():
     [10, 12, 14, 16, 18]"""
     print ""
 
-    print [ num**2 for num in range(1,11)]
-    print [ num**2 for num in range(1,11) if num%2 == 0 ]
-    print [ num**2 for num in range(2,11,2)]
+    print [num**2 for num in range(1, 11)]
+    print [num**2 for num in range(1, 11) if num % 2 == 0]
+    print [num**2 for num in range(2, 11, 2)]
     print ""
 
 def square_num():
     output_list = list()
-    for num in range(1,11,):
+    for num in range(1,11):
         output_list.append(num**2)
 
     return output_list

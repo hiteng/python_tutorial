@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 def xrange(n): #n = 5
     num = 0
     while num < n:
