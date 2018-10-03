@@ -15,8 +15,8 @@ def ext_new(arg_list1,arg_list2):
 
 def del_list(arg_list):
     out_list = []
-    new_list1 = arg_list[0:2]
-    print arg_list
+    arg_list[0:2]
+    #print arg_list
     return out_list
 
 def list_sort(list_arg):
@@ -26,7 +26,7 @@ def list_sort(list_arg):
         sort_num = min(l3)
         new_list.append(sort_num)
         l3.remove(sort_num)
-    print new_list
+    return new_list
 
 
 if __name__ == "__main__":
