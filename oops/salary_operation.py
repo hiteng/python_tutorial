@@ -23,7 +23,7 @@ class SalaryMod(object):
             return self.sal - sal_int2
 
     def salgen(self):
-        sal_gen = self.sal50 * 2
+        sal_gen = self.sal50 * 3
         return sal_gen
 
     def sal100(self):
