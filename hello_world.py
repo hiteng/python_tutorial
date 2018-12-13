@@ -6,7 +6,7 @@ import random
 
 
 
-def hello():
+def hello_world():
     a = "Hello World"
     print a
 
