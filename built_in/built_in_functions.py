@@ -27,8 +27,14 @@ def power_func(num, power_num=2):
 def chr_no(a):
     print chr(a)
 
+"""
+if a>b returns 1
+if a=b returns 0
+if a<b returns -1
+"""
 def cmp_nos(a,b):
     print (cmp(a, b))
+
 
 def enum_no(arg_x):
     for index,value in enumerate(arg_x):
@@ -39,7 +45,8 @@ def enum_no(arg_x):
 
 def eval_no():
 
-    """Out[8]: str
+    """
+    Out[8]: str
     eval(a)
     Out[9]: 123
     type(eval(a))
@@ -51,7 +58,8 @@ def eval_no():
     type(b)
     Out[14]: str
     type(eval(b))
-    Out[15]: float"""
+    Out[15]: float
+    """
 
 
 
@@ -143,32 +151,32 @@ if __name__ == '__main__':
     even_list = [2, 5, 43, 66, 80]
     num_list = [1, 2, 3, 4, 5]
 
-    # abs_no(-10.6473)
-    # print""
-    # all_no(x)
-    # print""
-    # any_no(y)
-    # print""
-    # bool_no(y)
-    # print""
-    # chr_no(110)
-    # print""
-    # cmp_nos(5, 10)
-    # print""
+    abs_no(-10.6473)
+    print""
+    all_no(x)
+    print""
+    any_no(y)
+    print""
+    bool_no(y)
+    print""
+    chr_no(110)
+    print""
+    cmp_nos(5, 10)
+    print""
     # enum_no(x)
     # print""
     # print passing_mark(st_marks)
     # print""
-    # format_func()
-    # print""
-    # id_val()
-    # print""
+    format_func()
+    print""
+    id_val()
+    print""
     # inp_name()
     #print map(power_func, l)
-    # print filter_vowel(["d", "a", "u", "class"])
+    print filter_vowel(["d", "a", "u", "class"])
     # print check_result(st_marks)
-    # print reduce_add([1,2,3,4,5])
+    print reduce_add([1,2,3,4,5])
     #print filter_even(even_list)
-    print filter_even_lambda(even_list)
+    #print filter_even_lambda(even_list)
 
 

@@ -9,7 +9,7 @@ def len_list(arg_list):
     return len
 
 
-def ext_new(arg_list1,arg_list2):
+def ext_new(arg_list1, arg_list2):
     new_list = arg_list1+arg_list2
     return new_list
 

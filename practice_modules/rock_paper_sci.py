@@ -9,8 +9,8 @@ Paper beats rock
 
 
 def rock_pap_sci():
-    player_1 = input("Enter your choice Player 1:")
-    player_2 = input("Enter your choice Player 2:")
+    player_1 = raw_input("Enter your choice Player 1:")
+    player_2 = raw_input("Enter your choice Player 2:")
 
     if player_1 == "Rock" and player_2 == "Scissors":
         print "Player 1 is the winner"
@@ -40,14 +40,9 @@ def compare():
                ('Scissors','Paper') : True,
                ('Scissors','Rock') : False}
     return results[(player_1, player_2)]
-# rock_pap_sci()
-#
-# def rock_paper_sci(list_arg):
-#     player_1 = input("Enter your choice Player 1:")
-#     player_2 = input("Enter your choice Player 2:")
-#
-#     for i in list_arg:
-#
+
+rock_pap_sci()
+
 
 
 
@@ -56,6 +51,6 @@ if __name__ == '__main__':
     list_str = ["Rock", "Scissors", "Paper"]
 
 
-#rock_paper_sci()
+
 
     print compare()

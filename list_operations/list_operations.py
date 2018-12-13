@@ -15,7 +15,7 @@ def list_iteration(list_arg):
 
 def list_iteration_enumerate(list_arg):
 
-    for index,value in enumerate(list_arg):
+    for index, value in enumerate(list_arg):
         if value == 3:
             print "Length of the list: ", len(list_arg)
             print "Found element: ", value
@@ -41,7 +41,7 @@ def index_list(list_arg):
     print " List : ", list_arg
     print ""
 
-    print "Inserted element ", list_arg.insert(1,7)
+    print "Inserted element ", list_arg.insert(1, 7)
     print " List : ", list_arg
     print ""
 
