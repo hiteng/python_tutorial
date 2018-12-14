@@ -35,9 +35,7 @@ def st_pass(st_marks, out_of_marks):
 
 st_pass(100,100)
 print""
-
 from time import sleep
 for i in range(1, 100000):
     sleep(3)
     print i
-

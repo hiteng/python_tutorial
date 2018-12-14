@@ -22,9 +22,6 @@ def perc_cal1(inp_no1, inp_no2, inp_no3, inp_no4, inp_no5, out_of):
     return perc1
 
 
-if __name__== "__main__":
 
 
     print perc_cal1(80,75,85,75,90,500)
-
-
